@@ -4,7 +4,7 @@ def tulostatiedot(varasto, varaston_nimi):
     print(f"{varaston_nimi}: {varasto}")
 
 def getterit(varasto, varaston_nimi):
-    print(str(varasto) + "getterit:")
+    print(f"{varaston_nimi} getterit:")
     print(f"saldo = {varasto.saldo}")
     print(f"tilavuus = {varasto.tilavuus}")
     print(f"paljonko_mahtuu = {varasto.paljonko_mahtuu()}")
