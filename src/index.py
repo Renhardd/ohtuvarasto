@@ -1,5 +1,6 @@
-from varasto import Varasto
+import numpy as np
 
+from varasto import Varasto
 
 def main():
     mehua = Varasto(100.0)
